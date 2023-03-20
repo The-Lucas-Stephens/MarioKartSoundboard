@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoundboardPageTwo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mario Kart Wii Soundboard"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:id="@+id/theTitle"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/mooMooMeadows"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/theTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/moomoo" />
+
+    <ImageView
+        android:id="@+id/grumbleVolcano"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/mooMooMeadows"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-35dp"
+        android:src="@drawable/grumblevolcano" />
+
+    <ImageView
+        android:id="@+id/warioGoldMine"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/grumbleVolcano"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-42dp"
+        android:src="@drawable/goldmine" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/warioGoldMine"
+        android:layout_marginTop="-25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Go back" />
+
+
+</RelativeLayout>
